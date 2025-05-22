@@ -1,6 +1,7 @@
-
 from textblob import TextBlob
 import re
+import nltk
+nltk.download('punkt')
 
 DAYS = {
     "monday": "Monday",
